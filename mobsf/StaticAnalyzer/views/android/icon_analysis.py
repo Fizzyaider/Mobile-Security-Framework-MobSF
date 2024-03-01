@@ -11,9 +11,7 @@ import subprocess
 
 from lxml import etree
 
-from androguard.core.bytecodes import (
-    axml,
-)
+import androguard.core.axml
 
 from django.conf import settings
 
